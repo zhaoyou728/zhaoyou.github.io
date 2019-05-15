@@ -1,17 +1,35 @@
-Sometimes you want numbered lists:
+# hello, This is Markdown Live Preview
 
-1. One
-2. Two
-3. Three
+----
+## what is Markdown?
+see [Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 
-Sometimes you want bullet points:
+> Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people "to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)".
 
-* Start a line with a star
-* Profit!
+----
+## usage
+1. Write markdown text in this textarea.
+2. Click 'HTML Preview' button.
 
-Alternatively,
+----
+## markdown quick reference
+# headers
 
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
+*emphasis*
+
+**strong**
+
+* list
+
+>block quote
+
+    code (4 spaces indent)
+[links](https://wikipedia.org)
+
+----
+## changelog
+* 17-Feb-2013 re-design
+
+----
+## thanks
+* [markdown-js](https://github.com/evilstreak/markdown-js)
